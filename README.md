@@ -9,6 +9,9 @@
 - Tested with Jellyfin injector plugin and Jellyfin web on Firefox
 - compatible with KefinTweaks
 - If some Next Up items don't show the "❌", it may be because some episodes are check as watched, mixed with unwatched then watched episodes, not following, of the same TV show. I'm not sure about that.
+- It's client side, meaning it don't change nor save anything on your Jellyfin Server, it only try to hide episodes on your browser, and save what to hide in the local storage of the web browser.
+- For now, it has only been tested on Firefox and the Jellyfin Android app.
+- It does not seem to work on Jellyfin Media Player for Windows. 
 
 #### If if fail and you can't restore with the ↺ icon :
 - In firefox, on jellyfin home page, right click and Inspect => Console => Run _window.NextUpHideRestoreAll()_
