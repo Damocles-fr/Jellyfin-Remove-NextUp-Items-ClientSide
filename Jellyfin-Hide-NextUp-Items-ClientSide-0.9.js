@@ -1,4 +1,4 @@
-/* Jellyfin Remove NextUp Items ClientSide 1.0 from github.com/Damocles-fr */
+/* Jellyfin Hide NextUp Items ClientSide 1.0 from github.com/Damocles-fr */
 /* Manual console restore : window.NextUpHideRestoreAll() */
 /* Dump : window.NextUpHideDump() */
 /* Force refresh : window.NextUpHideRefresh() */
