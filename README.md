@@ -1,4 +1,4 @@
-# Jellyfin Remove Next Up Items (Client Side) ❌ ↺
+# Jellyfin Hide Next Up Items (Client Side) ❌ ↺
 
 ## Features
 - Remove items from Next Up "❌" on Jellyfin home page.
