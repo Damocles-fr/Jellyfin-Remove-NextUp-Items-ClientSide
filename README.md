@@ -5,6 +5,13 @@
 - Restaure all hidden items "↺"
 - Client Side, Local storage, userscript Javascript injector plugin for Jellyfin Web
 
+### BETA VERSION
+- Tested with Jellyfin injector plugin and Jellyfin web on Firefox
+- compatible with KefinTweaks
+
+#### If if fail and you can't restore with the ↺ icon :
+- In firefox, on jellyfin home page, right click and Inspect => Console => Run _window.NextUpHideRestoreAll()_
+
 ## How to use :
 - Click "❌" to remove items
 - Click "↺" next to "Next Up" to restaure all hidden items
