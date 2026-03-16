@@ -1,27 +1,11 @@
-# Jellyfin-Remove-NextUp-Items-ClientSide ❌ ↺
+# Jellyfin Remove Next Up Items (Client Side) ❌ ↺
 
-## Remove items from Next Up on Jellyfin home page. Client Side, Local storage, userscript Javascript injector plugin
+## Remove items from Next Up on Jellyfin home page.
+- Client Side, Local storage, userscript Javascript injector plugin for Jellyfin Web
 
+## How to use :
 - Click "❌" to remove items
-- Click "↺" next to "Next Up" to restaure all items
-
-## Troubleshooting
-- Manual console restore : window.NextUpHideRestoreAll()
-- Dump : window.NextUpHideDump()
-- Force refresh : window.NextUpHideRefresh()
-- local storage key : jf-nextup-hider:v6:<serverAddress>:<userId>
-
-It is not compatible with Jellyfin apps that do not use the Jellyfin Web UI & JavaScript Injector.
-
-
-
-## Features
-
-
-## Transparency
-
-- This repository contains a suspicious amount of LLM code.
-- Human involvement was required to optimize the process, despite JavaScript repeatedly trying to hurt the human.
+- Click "↺" next to "Next Up" to restaure all hidden items
 
 ## Requirements
 
@@ -30,10 +14,6 @@ It is not compatible with Jellyfin apps that do not use the Jellyfin Web UI & Ja
 ## Screenshots
 
 <br>
-
-<br>
-
-
 
 <br>
 
@@ -51,16 +31,24 @@ It is not compatible with Jellyfin apps that do not use the Jellyfin Web UI & Ja
 
 #### 5. Open and refresh the Jellyfin home page
 
-- You should see "❌" on Next Up items.
-- "↺" appear next to "Next Up" to restaure all items
+- You should see an "❌" on Next Up items.
+- "↺" appear next to "Next Up" to restaure all hidden items
 
 ##### Alternatively, if you want to use it only in your web browser, or if you do not want to use the JS Injector plugin, you can install it with an extension like *Violentmonkey*.
 
-## Technical
+## Troubleshooting & Technical details
+- Manual console restore : window.NextUpHideRestoreAll()
+- Dump : window.NextUpHideDump()
+- Force refresh : window.NextUpHideRefresh()
+- local storage key : jf-nextup-hider:v6:<serverAddress>:<userId>
+- It is not compatible with Jellyfin apps that do not use the Jellyfin Web UI & JavaScript Injector.
 
+## Transparency
 
+- This repository contains a suspicious amount of LLM code.
+- Human involvement was required to optimize the process, despite JavaScript repeatedly trying to hurt the human.
 
 ## Need Help?
-- Don't hesitate to open an [issue](https://github.com/Damocles-fr/jellyfin-imdb-episodes-heatmap-ratings-grid/issues)
+- Don't hesitate to open an [issue](https://github.com/Damocles-fr/Jellyfin-Remove-NextUp-Items-ClientSide/issues)
 - **DM me** https://forum.jellyfin.org/u-damocles
 - GitHub [**Damocles-fr**](https://github.com/Damocles-fr)
