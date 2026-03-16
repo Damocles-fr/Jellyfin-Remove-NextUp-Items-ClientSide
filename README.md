@@ -1,6 +1,8 @@
 # Jellyfin Remove Next Up Items (Client Side) ❌ ↺
 
-## Remove items from Next Up on Jellyfin home page.
+## Features
+- Remove items from Next Up "❌" on Jellyfin home page.
+- Restaure all hidden items "↺"
 - Client Side, Local storage, userscript Javascript injector plugin for Jellyfin Web
 
 ## How to use :
