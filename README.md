@@ -6,6 +6,11 @@
 - Restaure all hidden items with the "↺" button next to "Next Up"
 - Client-side, Local-storage based userscript, Javascript injector plugin for Jellyfin Web
 
+<p align="center">
+  <img src="./assets/RemoveNextUp.webp" alt="Android view" width="800"><br>
+</p>
+
+
 ### BETA VERSION
 - Tested with Jellyfin injector plugin and Jellyfin Web on Firefox
 - Compatible with KefinTweaks and Disable User Data plugin
@@ -17,10 +22,6 @@
 
 #### If if fails and you can't restore with the ↺ icon :
 - In Firefox, on Jellyfin home page : right click => Inspect => Console => Run _window.NextUpHideRestoreAll()_
-
-<p align="center">
-  <img src="./assets/RemoveNextUp.webp" alt="Android view" width="800"><br>
-</p>
 
 ## Requirements
 
