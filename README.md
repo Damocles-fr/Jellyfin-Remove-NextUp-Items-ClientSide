@@ -12,6 +12,12 @@
 #### If if fail and you can't restore with the ↺ icon :
 - In firefox, on jellyfin home page, right click and Inspect => Console => Run _window.NextUpHideRestoreAll()_
 
+
+<p align="center">
+  <img src="./assets/RemoveNextUp.webp" alt="Android view" width="800"><br>
+</p>
+
+
 ## How to use :
 - Click "❌" to remove items
 - Click "↺" next to "Next Up" to restaure all hidden items
