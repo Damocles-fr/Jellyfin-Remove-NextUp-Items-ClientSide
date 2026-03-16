@@ -8,7 +8,7 @@
 ### BETA VERSION
 - Tested with Jellyfin injector plugin and Jellyfin web on Firefox
 - compatible with KefinTweaks
-- If some Next Up items don't show the "❌", it may be because some episode are check as watched, mixed with unwatched episodes not following upin the same TV show. I'm not sure about that.
+- If some Next Up items don't show the "❌", it may be because some episodes are check as watched, mixed with unwatched then watched episodes, not following, of the same TV show. I'm not sure about that.
 
 #### If if fail and you can't restore with the ↺ icon :
 - In firefox, on jellyfin home page, right click and Inspect => Console => Run _window.NextUpHideRestoreAll()_
