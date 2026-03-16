@@ -1,31 +1,26 @@
 # Jellyfin Hide Next Up Items (Client Side) ❌ ↺
 
 ## Features
-- Remove items from Next Up "❌" on Jellyfin home page.
-- Restaure all hidden items "↺"
-- Client Side, Local storage, userscript Javascript injector plugin for Jellyfin Web
+- Remove items from Next Up with a "❌" button on items
+- "↺" appear next to "Next Up" after you have hidden an episode.
+- Restaure all hidden items with the "↺" button next to "Next Up"
+- Client-side, Local-storage based userscript, Javascript injector plugin for Jellyfin Web
 
 ### BETA VERSION
-- Tested with Jellyfin injector plugin and Jellyfin web on Firefox
-- compatible with KefinTweaks and Disable User Data plugin
-- If some Next Up items don't show the "❌", it may be because some episodes are check as watched, mixed with unwatched then watched episodes, not following, of the same TV show. I'm not sure about that.
-- It's client side, meaning it don't change nor save anything on your Jellyfin Server, it only try to hide episodes on your browser, and save what to hide in the local storage of the web browser.
-- For now, it has only been tested on Firefox and the Jellyfin Android app.
+- Tested with Jellyfin injector plugin and Jellyfin Web on Firefox
+- Compatible with KefinTweaks and Disable User Data plugin
+- If some Next Up items do not show the "❌", it may be because some episodes are marked as watched, mixed with unwatched then watched episodes, not following each other, from the same TV show. I'm not sure about that.
+- It's client-side, meaning it does not change or save anything on your Jellyfin server. It only tries to hide episodes in your browser and saves what to hide in the browser's local storage
+- For now, it has only been tested on Firefox and the Jellyfin Android app
 - It does not seem to work on Jellyfin Media Player for Windows.
-- If you have hidden TV series but the "↺" button don't appear, just refresh the home page
+- If you have hidden TV series but the "↺" button doesn't appear, just refresh the home page
 
-#### If if fail and you can't restore with the ↺ icon :
-- In firefox, on jellyfin home page, right click and Inspect => Console => Run _window.NextUpHideRestoreAll()_
-
+#### If if fails and you can't restore with the ↺ icon :
+- In Firefox, on Jellyfin home page : right click => Inspect => Console => Run _window.NextUpHideRestoreAll()_
 
 <p align="center">
   <img src="./assets/RemoveNextUp.webp" alt="Android view" width="800"><br>
 </p>
-
-
-## How to use :
-- Click "❌" to remove items
-- Click "↺" next to "Next Up" to restaure all hidden items
 
 ## Requirements
 
@@ -51,8 +46,7 @@
 ##### Alternatively, if you want to use it only in your web browser, or if you do not want to use the JS Injector plugin, you can install it with an extension like *Violentmonkey*.
 
 ## Troubleshooting & Technical details
-- Manual console restore : window.NextUpHideRestoreAll()
-- Dump : window.NextUpHideDump()
+- Manual console restore everything : window.NextUpHideRestoreAll()
 - Force refresh : window.NextUpHideRefresh()
 - local storage key : jf-nextup-hider:v6:<serverAddress>:<userId>
 - It is not compatible with Jellyfin apps that do not use the Jellyfin Web UI & JavaScript Injector.
