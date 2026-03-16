@@ -26,12 +26,6 @@
 
 - [Jellyfin JavaScript Injector plugin](https://github.com/n00bcodr/Jellyfin-JavaScript-Injector)
 
-## Screenshots
-
-<br>
-
-<br>
-
 ## Installation
 
 #### 1. Install the *Jellyfin JavaScript Injector* plugin in your Jellyfin server if it is not already installed (may need server reboot).
