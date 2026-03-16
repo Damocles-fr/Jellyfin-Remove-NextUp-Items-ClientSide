@@ -57,6 +57,6 @@
 - Human involvement was required to optimize the process, despite JavaScript repeatedly trying to hurt the human.
 
 ## Need Help?
-- Don't hesitate to open an [issue](https://github.com/Damocles-fr/Jellyfin-Remove-NextUp-Items-ClientSide/issues)
+- Don't hesitate to open an [issue](https://github.com/Damocles-fr/Jellyfin-Hide-NextUp-Items-ClientSide/issues)
 - **DM me** https://forum.jellyfin.org/u-damocles
 - GitHub [**Damocles-fr**](https://github.com/Damocles-fr)
